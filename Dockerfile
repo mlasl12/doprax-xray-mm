@@ -2,7 +2,7 @@ FROM nginx:latest
 LABEL ifeng fscarmen mack-a ygkkk
 EXPOSE 80
 USER root
-ENV uuid b7812123-f014-4ccc-a817-092daf291fbe
+ENV uuid 83a36986-a0d8-4bcd-96cb-e65961c9bcbc
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY config.json ./
 COPY entrypoint.sh ./
